@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Title"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp" />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Description"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Date"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp" />
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Time"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:text="Update Task"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
